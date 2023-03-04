@@ -254,7 +254,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT8;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -266,7 +266,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 2, 1 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -279,7 +279,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -333,7 +333,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -345,7 +345,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -358,7 +358,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -411,7 +411,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -423,7 +423,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -436,7 +436,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -489,7 +489,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -501,7 +501,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -514,7 +514,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -567,7 +567,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -579,7 +579,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -592,7 +592,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -645,7 +645,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -657,7 +657,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -670,7 +670,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -723,7 +723,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -735,7 +735,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -748,7 +748,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -802,7 +802,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -814,7 +814,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -827,7 +827,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -880,7 +880,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -892,7 +892,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -905,7 +905,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -958,7 +958,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -970,7 +970,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -983,7 +983,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1036,7 +1036,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1048,7 +1048,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1061,7 +1061,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1114,7 +1114,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1126,7 +1126,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1139,7 +1139,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1192,7 +1192,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1204,7 +1204,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1217,7 +1217,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1270,7 +1270,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1282,7 +1282,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1295,7 +1295,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1348,7 +1348,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1360,7 +1360,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1373,7 +1373,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1426,7 +1426,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1438,7 +1438,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 16, 8 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1451,7 +1451,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1504,7 +1504,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1516,7 +1516,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1529,7 +1529,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1582,7 +1582,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1594,7 +1594,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1607,7 +1607,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1660,7 +1660,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1672,7 +1672,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1685,7 +1685,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1738,7 +1738,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1750,7 +1750,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1763,7 +1763,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1816,7 +1816,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1828,7 +1828,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1841,7 +1841,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1894,7 +1894,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1906,7 +1906,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1919,7 +1919,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -1972,7 +1972,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -1984,7 +1984,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -1997,7 +1997,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2050,7 +2050,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2062,7 +2062,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2075,7 +2075,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2128,7 +2128,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2140,7 +2140,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2153,7 +2153,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2206,7 +2206,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2218,7 +2218,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2231,7 +2231,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2284,7 +2284,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2296,7 +2296,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2309,7 +2309,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2362,7 +2362,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT16;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2374,7 +2374,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 4, 2 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2387,7 +2387,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2440,7 +2440,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT16;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2452,7 +2452,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 4, 2 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2465,7 +2465,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2518,7 +2518,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT16;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2530,7 +2530,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 4, 2 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2543,7 +2543,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2596,7 +2596,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT8;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2608,7 +2608,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 2, 1 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2621,7 +2621,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2674,7 +2674,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT16;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2686,7 +2686,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 4, 2 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2699,7 +2699,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2752,7 +2752,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT16;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2764,7 +2764,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 4, 2 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2777,7 +2777,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2830,7 +2830,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2842,7 +2842,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2855,7 +2855,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2908,7 +2908,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2920,7 +2920,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -2933,7 +2933,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -2986,7 +2986,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT32;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -2998,7 +2998,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 8, 4 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3011,7 +3011,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3065,7 +3065,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3077,7 +3077,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3090,7 +3090,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3143,7 +3143,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3155,7 +3155,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3168,7 +3168,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3222,7 +3222,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3234,7 +3234,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3247,7 +3247,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3300,7 +3300,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3312,7 +3312,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3325,7 +3325,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3378,7 +3378,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3390,7 +3390,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3403,7 +3403,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3456,7 +3456,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3468,7 +3468,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3481,7 +3481,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3534,7 +3534,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3546,7 +3546,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3559,7 +3559,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3612,7 +3612,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3624,7 +3624,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3637,7 +3637,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3690,7 +3690,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3702,7 +3702,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3715,7 +3715,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
@@ -3768,7 +3768,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 // Define the ndarray data types:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
-// Create underlying byte arrays:
+// Create an underlying byte array:
 uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 // Define the number of dimensions:
@@ -3780,7 +3780,7 @@ int64_t shape[] = { 2, 2 };
 // Define the strides:
 int64_t sx[] = { 32, 16 };
 
-// Define the offsets:
+// Define the index offset:
 int64_t ox = 0;
 
 // Define the array order:
@@ -3793,7 +3793,7 @@ enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
 int8_t submodes[] = { imode };
 int64_t nsubmodes = 1;
 
-// Create an input ndarray:
+// Create an output ndarray:
 struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
 if ( x == NULL ) {
     fprintf( stderr, "Error allocating memory.\n" );
