@@ -260,7 +260,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -339,7 +339,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -417,7 +417,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -495,7 +495,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -573,7 +573,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -651,7 +651,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -729,7 +729,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -808,7 +808,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -886,7 +886,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -964,7 +964,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1042,7 +1042,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1120,7 +1120,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1198,7 +1198,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1276,7 +1276,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1354,7 +1354,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1432,7 +1432,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1510,7 +1510,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1588,7 +1588,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1666,7 +1666,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1744,7 +1744,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1822,7 +1822,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1900,7 +1900,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -1978,7 +1978,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2056,7 +2056,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2134,7 +2134,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2212,7 +2212,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2290,7 +2290,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2368,7 +2368,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2446,7 +2446,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2524,7 +2524,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2602,7 +2602,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2680,7 +2680,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2758,7 +2758,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2836,7 +2836,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2914,7 +2914,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -2992,7 +2992,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3071,7 +3071,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3149,7 +3149,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3228,7 +3228,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3306,7 +3306,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3384,7 +3384,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3462,7 +3462,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3540,7 +3540,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3618,7 +3618,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3696,7 +3696,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
@@ -3774,7 +3774,7 @@ uint8_t xbuf[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 // Define the number of dimensions:
 int64_t ndims = 2;
 
-// Define the array shapes:
+// Define the array shape:
 int64_t shape[] = { 2, 2 };
 
 // Define the strides:
