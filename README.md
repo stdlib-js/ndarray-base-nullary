@@ -251,7 +251,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT8;
 
 // Create an underlying byte array:
@@ -330,7 +330,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
 // Create an underlying byte array:
@@ -408,7 +408,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
 // Create an underlying byte array:
@@ -486,7 +486,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
 // Create an underlying byte array:
@@ -564,7 +564,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
 // Create an underlying byte array:
@@ -642,7 +642,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
 // Create an underlying byte array:
@@ -720,7 +720,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
 // Create an underlying byte array:
@@ -799,7 +799,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX64;
 
 // Create an underlying byte array:
@@ -877,7 +877,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -955,7 +955,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -1033,7 +1033,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -1111,7 +1111,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -1189,7 +1189,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -1267,7 +1267,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -1345,7 +1345,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -1423,7 +1423,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT64;
 
 // Create an underlying byte array:
@@ -1501,7 +1501,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
 // Create an underlying byte array:
@@ -1579,7 +1579,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
 // Create an underlying byte array:
@@ -1657,7 +1657,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
 // Create an underlying byte array:
@@ -1735,7 +1735,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
 // Create an underlying byte array:
@@ -1813,7 +1813,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
 // Create an underlying byte array:
@@ -1891,7 +1891,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_FLOAT32;
 
 // Create an underlying byte array:
@@ -1969,7 +1969,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
 // Create an underlying byte array:
@@ -2047,7 +2047,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
 // Create an underlying byte array:
@@ -2125,7 +2125,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
 // Create an underlying byte array:
@@ -2203,7 +2203,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
 // Create an underlying byte array:
@@ -2281,7 +2281,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT32;
 
 // Create an underlying byte array:
@@ -2359,7 +2359,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT16;
 
 // Create an underlying byte array:
@@ -2437,7 +2437,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT16;
 
 // Create an underlying byte array:
@@ -2515,7 +2515,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT16;
 
 // Create an underlying byte array:
@@ -2593,7 +2593,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_INT8;
 
 // Create an underlying byte array:
@@ -2671,7 +2671,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT16;
 
 // Create an underlying byte array:
@@ -2749,7 +2749,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT16;
 
 // Create an underlying byte array:
@@ -2827,7 +2827,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT32;
 
 // Create an underlying byte array:
@@ -2905,7 +2905,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT32;
 
 // Create an underlying byte array:
@@ -2983,7 +2983,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_UINT32;
 
 // Create an underlying byte array:
@@ -3062,7 +3062,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3140,7 +3140,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3219,7 +3219,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3297,7 +3297,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3375,7 +3375,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3453,7 +3453,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3531,7 +3531,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3609,7 +3609,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3687,7 +3687,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
@@ -3765,7 +3765,7 @@ Applies a nullary callback and assigns results to elements in an output ndarray.
 #include <stdlib.h>
 #include <stdio.h>
 
-// Define the ndarray data types:
+// Define the ndarray data type:
 enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_COMPLEX128;
 
 // Create an underlying byte array:
