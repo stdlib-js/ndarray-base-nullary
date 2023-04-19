@@ -290,7 +290,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -369,7 +369,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-stdlib_complex64_t fcn() {
+static stdlib_complex64_t fcn( void ) {
     // ...
 }
 
@@ -447,7 +447,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -525,7 +525,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-float fcn() {
+static float fcn( void ) {
     return 10.0f;
 }
 
@@ -603,7 +603,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int16_t fcn() {
+static int16_t fcn( void ) {
     return 10;
 }
 
@@ -681,7 +681,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int8_t fcn() {
+static int8_t fcn( void ) {
     return 10;
 }
 
@@ -759,7 +759,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint16_t fcn() {
+static uint16_t fcn( void ) {
     return 10;
 }
 
@@ -838,7 +838,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-stdlib_complex128_t fcn() {
+static stdlib_complex128_t fcn( void ) {
     // ...
 }
 
@@ -916,7 +916,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-double fcn() {
+static double fcn( void ) {
     return 10.0;
 }
 
@@ -994,7 +994,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -1072,7 +1072,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-float fcn() {
+static float fcn( void ) {
     return 10.0f;
 }
 
@@ -1150,7 +1150,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int32_t fcn() {
+static int32_t fcn( void ) {
     return 10;
 }
 
@@ -1228,7 +1228,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int16_t fcn() {
+static int16_t fcn( void ) {
     return 10;
 }
 
@@ -1306,7 +1306,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int8_t fcn() {
+static int8_t fcn( void ) {
     return 10;
 }
 
@@ -1384,7 +1384,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint16_t fcn() {
+static uint16_t fcn( void ) {
     return 10;
 }
 
@@ -1462,7 +1462,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint32_t fcn() {
+static uint32_t fcn( void ) {
     return 10;
 }
 
@@ -1540,7 +1540,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-float fcn() {
+static float fcn( void ) {
     return 10.0f;
 }
 
@@ -1618,7 +1618,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -1696,7 +1696,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-double fcn() {
+static double fcn( void ) {
     return 10.0;
 }
 
@@ -1774,7 +1774,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int16_t fcn() {
+static int16_t fcn( void ) {
     return 10;
 }
 
@@ -1852,7 +1852,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int8_t fcn() {
+static int8_t fcn( void ) {
     return 10;
 }
 
@@ -1930,7 +1930,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint16_t fcn() {
+static uint16_t fcn( void ) {
     return 10;
 }
 
@@ -2008,7 +2008,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int32_t fcn() {
+static int32_t fcn( void ) {
     return 10;
 }
 
@@ -2086,7 +2086,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -2164,7 +2164,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int16_t fcn() {
+static int16_t fcn( void ) {
     return 10;
 }
 
@@ -2242,7 +2242,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int8_t fcn() {
+static int8_t fcn( void ) {
     return 10;
 }
 
@@ -2320,7 +2320,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint16_t fcn() {
+static uint16_t fcn( void ) {
     return 10;
 }
 
@@ -2398,7 +2398,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int16_t fcn() {
+static int16_t fcn( void ) {
     return 10;
 }
 
@@ -2476,7 +2476,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -2554,7 +2554,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int8_t fcn() {
+static int8_t fcn( void ) {
     return 10;
 }
 
@@ -2632,7 +2632,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int8_t fcn() {
+static int8_t fcn( void ) {
     return 10;
 }
 
@@ -2710,7 +2710,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint16_t fcn() {
+static uint16_t fcn( void ) {
     return 10;
 }
 
@@ -2788,7 +2788,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -2866,7 +2866,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint32_t fcn() {
+static uint32_t fcn( void ) {
     return 10;
 }
 
@@ -2944,7 +2944,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -3022,7 +3022,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint16_t fcn() {
+static uint16_t fcn( void ) {
     return 10;
 }
 
@@ -3101,7 +3101,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-stdlib_complex128_t fcn() {
+static stdlib_complex128_t fcn( void ) {
     // ...
 }
 
@@ -3179,7 +3179,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint8_t fcn() {
+static uint8_t fcn( void ) {
     return 10;
 }
 
@@ -3258,7 +3258,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-stdlib_complex64_t fcn() {
+static stdlib_complex64_t fcn( void ) {
     // ...
 }
 
@@ -3336,7 +3336,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-double fcn() {
+static double fcn( void ) {
     return 10.0;
 }
 
@@ -3414,7 +3414,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-float fcn() {
+static float fcn( void ) {
     return 10.0f;
 }
 
@@ -3492,7 +3492,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int32_t fcn() {
+static int32_t fcn( void ) {
     return 10;
 }
 
@@ -3570,7 +3570,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int16_t fcn() {
+static int16_t fcn( void ) {
     return 10;
 }
 
@@ -3648,7 +3648,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-int8_t fcn() {
+static int8_t fcn( void ) {
     return 10;
 }
 
@@ -3726,7 +3726,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint16_t fcn() {
+static uint16_t fcn( void ) {
     return 10;
 }
 
@@ -3804,7 +3804,7 @@ if ( x == NULL ) {
 struct ndarray *arrays[] = { x };
 
 // Define a callback:
-uint32_t fcn() {
+static uint32_t fcn( void ) {
     return 10;
 }
 
@@ -3869,7 +3869,7 @@ int8_t stdlib_ndarray_z_as_u( struct ndarray *arrays[], void *fcn );
 #include <stdio.h>
 #include <inttypes.h>
 
-void print_ndarray_contents( const struct ndarray *x ) {
+static void print_ndarray_contents( const struct ndarray *x ) {
     int64_t i;
     int8_t s;
     double v;
@@ -3884,11 +3884,11 @@ void print_ndarray_contents( const struct ndarray *x ) {
     }
 }
 
-double fcn() {
+static double fcn( void ) {
     return 10.0;
 }
 
-int main() {
+int main( void ) {
     // Define the ndarray data type:
     enum STDLIB_NDARRAY_DTYPE dtype = STDLIB_NDARRAY_FLOAT64;
 
