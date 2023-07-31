@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-nullary",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Apply a nullary function and assign results to elements in an output ndarray.",
   "license": "Apache-2.0",
   "author": {
@@ -46,8 +46,8 @@
     "@stdlib/ndarray-base-iteration-order": "^0.0.8",
     "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.0.8",
     "@stdlib/ndarray-base-ndarraylike2object": "^0.0.1",
-    "@stdlib/ndarray-base-nullary-loop-interchange-order": "github:stdlib-js/ndarray-base-nullary-loop-interchange-order#main",
-    "@stdlib/ndarray-base-nullary-tiling-block-size": "github:stdlib-js/ndarray-base-nullary-tiling-block-size#main",
+    "@stdlib/ndarray-base-nullary-loop-interchange-order": "^0.0.1",
+    "@stdlib/ndarray-base-nullary-tiling-block-size": "^0.0.1",
     "@stdlib/ndarray-base-numel": "^0.0.8",
     "@stdlib/ndarray-base-vind2bind": "^0.0.8",
     "@stdlib/ndarray-ctor": "^0.0.10",
@@ -79,7 +79,7 @@
     "@stdlib/ndarray-base-to-array": "^0.0.7",
     "@stdlib/ndarray-dtypes": "^0.0.9",
     "@stdlib/ndarray-safe-casts": "^0.0.8",
-    "@stdlib/random-array-discrete-uniform": "github:stdlib-js/random-array-discrete-uniform#main",
+    "@stdlib/random-array-discrete-uniform": "^0.0.1",
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "@stdlib/string-format": "^0.0.3",
     "@stdlib/string-replace": "^0.0.11",
