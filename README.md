@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@esm/index.mjs';
+import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@v0.2.0-esm/index.mjs';
 ```
 
 #### nullary( arrays, fcn )
@@ -136,7 +136,7 @@ The provided ndarray should be an `object` with the following properties:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
-import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@esm/index.mjs';
+import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@v0.2.0-esm/index.mjs';
 
 var x = {
     'dtype': 'generic',
