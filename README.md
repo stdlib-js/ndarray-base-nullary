@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-nullary/tags). For example,
+
+```javascript
 import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@v0.2.1-deno/mod.js';
 ```
 
@@ -131,7 +136,7 @@ The provided ndarray should be an `object` with the following properties:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
-import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@v0.2.1-deno/mod.js';
+import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-nullary@deno/mod.js';
 
 var x = {
     'dtype': 'generic',
