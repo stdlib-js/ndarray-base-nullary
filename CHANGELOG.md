@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-14)
+## Unreleased (2024-07-15)
 
 <section class="features">
 
@@ -32,6 +32,8 @@
 
 <details>
 
+-   [`9abdead`](https://github.com/stdlib-js/stdlib/commit/9abdead65457225ccbf44f4bab8caf96167a71c5) - **test:** add tests for three-dimensional arrays [(#2599)](https://github.com/stdlib-js/stdlib/pull/2599) _(by Muhammad Haris, Athan Reines)_
+-   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`903c51c`](https://github.com/stdlib-js/stdlib/commit/903c51c7d0a06d9186a6f2be1b01fa25f770a3eb) - **test:** add tests to `@stdlib/ndarray-base/nullary` [(#2350)](https://github.com/stdlib-js/stdlib/pull/2350) _(by Muhammad Haris, Athan Reines)_
 -   [`19d4a8d`](https://github.com/stdlib-js/stdlib/commit/19d4a8da27facd0cc72b6162dc7e6b0d66d7a63c) - **feat:** add boolean dtype support to `ndarray/base/nullary` [(#2586)](https://github.com/stdlib-js/stdlib/pull/2586) _(by Jaysukh Makvana)_
 -   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - **fix:** update include paths _(by Athan Reines)_
@@ -47,11 +49,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Jaysukh Makvana
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
