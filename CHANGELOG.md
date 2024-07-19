@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-15)
+## Unreleased (2024-07-19)
 
 <section class="features">
 
@@ -32,6 +32,11 @@
 
 <details>
 
+-   [`e4cd553`](https://github.com/stdlib-js/stdlib/commit/e4cd5534b04ce1c7277126fdd1811b845f95d1f2) - **test:** add tests to `ndarray/base/nullary` [(#2609)](https://github.com/stdlib-js/stdlib/pull/2609) _(by Muhammad Haris, Athan Reines)_
+-   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
+-   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
+-   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
+-   [`18b3c79`](https://github.com/stdlib-js/stdlib/commit/18b3c79c5035c7082618b7379cd6576e64393a96) - **refactor:** update paths _(by Athan Reines)_
 -   [`9abdead`](https://github.com/stdlib-js/stdlib/commit/9abdead65457225ccbf44f4bab8caf96167a71c5) - **test:** add tests for three-dimensional arrays [(#2599)](https://github.com/stdlib-js/stdlib/pull/2599) _(by Muhammad Haris, Athan Reines)_
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`903c51c`](https://github.com/stdlib-js/stdlib/commit/903c51c7d0a06d9186a6f2be1b01fa25f770a3eb) - **test:** add tests to `@stdlib/ndarray-base/nullary` [(#2350)](https://github.com/stdlib-js/stdlib/pull/2350) _(by Muhammad Haris, Athan Reines)_
