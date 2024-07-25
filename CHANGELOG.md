@@ -26,12 +26,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#2229](https://github.com/stdlib-js/stdlib/issues/2229)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`cace2b4`](https://github.com/stdlib-js/stdlib/commit/cace2b43ed6624d28afdc5d85fb6551f7f0155b1) - **test:** add tests to `ndarray/base/nullary` [(#2663)](https://github.com/stdlib-js/stdlib/pull/2663) _(by Muhammad Haris, Athan Reines)_
 -   [`468eb7f`](https://github.com/stdlib-js/stdlib/commit/468eb7f2d12876dc0713c081a53043961c70feda) - **test:** add tests to `ndarray/base/nullary` [(#2655)](https://github.com/stdlib-js/stdlib/pull/2655) _(by Muhammad Haris, Athan Reines)_
 -   [`fa34b48`](https://github.com/stdlib-js/stdlib/commit/fa34b48968bddc6eb016fd4991833d7942e2a9a9) - **test:** add tests to `ndarray/base/nullary` [(#2652)](https://github.com/stdlib-js/stdlib/pull/2652) _(by Muhammad Haris, Athan Reines)_
 -   [`0dfdd7d`](https://github.com/stdlib-js/stdlib/commit/0dfdd7da997c13178f0a2bd7a9895a4618629a46) - **test:** add tests to `ndarray/base/nullary` [(#2645)](https://github.com/stdlib-js/stdlib/pull/2645) _(by Muhammad Haris, Athan Reines)_
@@ -78,13 +91,21 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 ## 0.2.1 (2024-02-25)
 
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-15)
+
 <section class="features">
 
 ### Features
 
 -   [`c28a16e`](https://github.com/stdlib-js/stdlib/commit/c28a16e50e84bc0fb8dd16b644f83b60248fe3b7) - add `ndarray/base/assign`
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - update minimum TypeScript version
--   [`28c87ca`](https://github.com/stdlib-js/stdlib/commit/28c87ca422d9953a5d5ee583e904b24d66e59682) - add `ndarray/base/nullary`
 
 </section>
 
@@ -95,11 +116,60 @@ A total of 4 people contributed to this release. Thank you to the following cont
 ### Bug Fixes
 
 -   [`ba92c62`](https://github.com/stdlib-js/stdlib/commit/ba92c62429e3f7165f526c72ad37824283b459d7) - remove related section
--   [`23b99ac`](https://github.com/stdlib-js/stdlib/commit/23b99acc256b4c9034347ed42ba21f202caedda8) - resolve C lint errors
 
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`a33d506`](https://github.com/stdlib-js/stdlib/commit/a33d506252c11f20153e0de408996ee8798bb4ae) - **docs:** fix comments _(by Athan Reines)_
+-   [`8cec00e`](https://github.com/stdlib-js/stdlib/commit/8cec00e2ba3e5a446a378a932beae01eb400ea8a) - **docs:** fix copy-paste error _(by Athan Reines)_
+-   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
+-   [`ba92c62`](https://github.com/stdlib-js/stdlib/commit/ba92c62429e3f7165f526c72ad37824283b459d7) - **fix:** remove related section _(by Athan Reines)_
+-   [`e5e8db8`](https://github.com/stdlib-js/stdlib/commit/e5e8db8c741f5195fe0b9d823a6eff6d1011b6a6) - **chore:** add TODO _(by Athan Reines)_
+-   [`c28a16e`](https://github.com/stdlib-js/stdlib/commit/c28a16e50e84bc0fb8dd16b644f83b60248fe3b7) - **feat:** add `ndarray/base/assign` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-24)
+
+<section class="features">
+
+### Features
+
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
 
 <section class="breaking-changes">
 
@@ -120,13 +190,60 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`a33d506`](https://github.com/stdlib-js/stdlib/commit/a33d506252c11f20153e0de408996ee8798bb4ae) - **docs:** fix comments _(by Athan Reines)_
--   [`8cec00e`](https://github.com/stdlib-js/stdlib/commit/8cec00e2ba3e5a446a378a932beae01eb400ea8a) - **docs:** fix copy-paste error _(by Athan Reines)_
--   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
--   [`ba92c62`](https://github.com/stdlib-js/stdlib/commit/ba92c62429e3f7165f526c72ad37824283b459d7) - **fix:** remove related section _(by Athan Reines)_
--   [`e5e8db8`](https://github.com/stdlib-js/stdlib/commit/e5e8db8c741f5195fe0b9d823a6eff6d1011b6a6) - **chore:** add TODO _(by Athan Reines)_
--   [`c28a16e`](https://github.com/stdlib-js/stdlib/commit/c28a16e50e84bc0fb8dd16b644f83b60248fe3b7) - **feat:** add `ndarray/base/assign` _(by Athan Reines)_
 -   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
+## 0.0.1 (2023-07-31)
+
+<section class="features">
+
+### Features
+
+-   [`28c87ca`](https://github.com/stdlib-js/stdlib/commit/28c87ca422d9953a5d5ee583e904b24d66e59682) - add `ndarray/base/nullary`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`23b99ac`](https://github.com/stdlib-js/stdlib/commit/23b99acc256b4c9034347ed42ba21f202caedda8) - resolve C lint errors
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
 -   [`23b99ac`](https://github.com/stdlib-js/stdlib/commit/23b99acc256b4c9034347ed42ba21f202caedda8) - **fix:** resolve C lint errors _(by Athan Reines)_
 -   [`28e1c84`](https://github.com/stdlib-js/stdlib/commit/28e1c84390d88044883c9ef940a12f38d66ea3ef) - **docs:** resolve C lint errors _(by Athan Reines)_
 -   [`8953419`](https://github.com/stdlib-js/stdlib/commit/89534192da77bc7d8765012acb6199fab49c50d2) - **docs:** fix comments _(by Athan Reines)_
@@ -144,10 +261,9 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   Athan Reines
--   Philipp Burckhardt
 
 </section>
 
