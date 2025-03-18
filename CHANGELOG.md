@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`843fd22`](https://github.com/stdlib-js/stdlib/commit/843fd22b54dd151a98bf2dd9f145147a6e7f8522) - **docs:** fix example _(by Athan Reines)_
 -   [`d6437f7`](https://github.com/stdlib-js/stdlib/commit/d6437f72ff5f7b0b08c531e25826651f28757143) - **docs:** fix example _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`bc07347`](https://github.com/stdlib-js/stdlib/commit/bc07347c2ebd7ea17befbb91f3c422776acf0c42) - **docs:** fix strides _(by Athan Reines)_
