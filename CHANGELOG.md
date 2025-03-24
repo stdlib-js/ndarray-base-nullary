@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-18)
+## Unreleased (2025-03-24)
 
 <section class="commits">
 
@@ -12,6 +12,13 @@
 
 <details>
 
+-   [`442efb4`](https://github.com/stdlib-js/stdlib/commit/442efb4980c95c38eb1333c1d7a38b5e2ab4d2ec) - **chore:** resolve lint errors _(by Athan Reines)_
+-   [`3419f20`](https://github.com/stdlib-js/stdlib/commit/3419f20af1c819b14ab5ccf7b17379fa8f977399) - **chore:** resolve lint errors _(by Athan Reines)_
+-   [`2c5c512`](https://github.com/stdlib-js/stdlib/commit/2c5c5127bd8bec569f88086096c65e39efc722c9) - **docs:** update comment _(by Athan Reines)_
+-   [`19ed652`](https://github.com/stdlib-js/stdlib/commit/19ed652198d5f219df78a46f8d4d0a5447ab2cb1) - **style:** reorder variable declarations to match ndarray/base/unary _(by Athan Reines)_
+-   [`2b67d75`](https://github.com/stdlib-js/stdlib/commit/2b67d75c6c85b360e539bc5316ad0607a08d9521) - **docs:** fix examples and resolve lint error _(by Athan Reines)_
+-   [`4846eb1`](https://github.com/stdlib-js/stdlib/commit/4846eb195c29d2133d39717da261b73cbe9eac7c) - **style:** fix spacing _(by Athan Reines)_
+-   [`382eff4`](https://github.com/stdlib-js/stdlib/commit/382eff4642422f1e7a8ff0f1fb05b5ec9642384d) - **docs:** fix comment _(by Athan Reines)_
 -   [`843fd22`](https://github.com/stdlib-js/stdlib/commit/843fd22b54dd151a98bf2dd9f145147a6e7f8522) - **docs:** fix example _(by Athan Reines)_
 -   [`d6437f7`](https://github.com/stdlib-js/stdlib/commit/d6437f72ff5f7b0b08c531e25826651f28757143) - **docs:** fix example _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
