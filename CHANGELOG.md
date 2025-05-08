@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-07)
+## Unreleased (2025-05-08)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`742b7ec`](https://github.com/stdlib-js/stdlib/commit/742b7ec1f60fc811148afcea78cfc36dc1018e24) - use resolved order when computing loop variables
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`742b7ec`](https://github.com/stdlib-js/stdlib/commit/742b7ec1f60fc811148afcea78cfc36dc1018e24) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`442efb4`](https://github.com/stdlib-js/stdlib/commit/442efb4980c95c38eb1333c1d7a38b5e2ab4d2ec) - **chore:** resolve lint errors _(by Athan Reines)_
 -   [`3419f20`](https://github.com/stdlib-js/stdlib/commit/3419f20af1c819b14ab5ccf7b17379fa8f977399) - **chore:** resolve lint errors _(by Athan Reines)_
