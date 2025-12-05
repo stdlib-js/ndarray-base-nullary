@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-18)
+## Unreleased (2025-12-05)
 
 <section class="bug-fixes">
 
@@ -16,12 +16,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8796](https://github.com/stdlib-js/stdlib/issues/8796)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`13cebb5`](https://github.com/stdlib-js/stdlib/commit/13cebb5fa762fc7f6252cc9115d306dd43f5d564) - **chore:** fix Javascript lint errors [(#8797)](https://github.com/stdlib-js/stdlib/pull/8797) _(by Kate Suraev)_
 -   [`a3e7978`](https://github.com/stdlib-js/stdlib/commit/a3e79786217bf1c9a84875203251af82cc93a222) - **docs:** update markup _(by Athan Reines)_
 -   [`742b7ec`](https://github.com/stdlib-js/stdlib/commit/742b7ec1f60fc811148afcea78cfc36dc1018e24) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -47,9 +60,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Kate Suraev
 -   Philipp Burckhardt
 
 </section>
