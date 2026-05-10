@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-17)
+## Unreleased (2026-05-10)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`1e326dd`](https://github.com/stdlib-js/stdlib/commit/1e326dd99001c7919f24ad6f477597d14da00b23) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/nullary` [(#12045)](https://github.com/stdlib-js/stdlib/pull/12045) _(by Karan Anand)_
 -   [`13ec30d`](https://github.com/stdlib-js/stdlib/commit/13ec30d69ff91423504ba76bf5de59b0322ff8db) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11435)](https://github.com/stdlib-js/stdlib/pull/11435) _(by Karan Anand)_
 
 </details>
