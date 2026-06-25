@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`ae0704c`](https://github.com/stdlib-js/stdlib/commit/ae0704c8acf3023469ab02686154e26193a601cd) - **docs:** fix typo `PREMABLE` to `PREAMBLE` [(#13130)](https://github.com/stdlib-js/stdlib/pull/13130) _(by anee3)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`1e326dd`](https://github.com/stdlib-js/stdlib/commit/1e326dd99001c7919f24ad6f477597d14da00b23) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/nullary` [(#12045)](https://github.com/stdlib-js/stdlib/pull/12045) _(by Karan Anand)_
 -   [`13ec30d`](https://github.com/stdlib-js/stdlib/commit/13ec30d69ff91423504ba76bf5de59b0322ff8db) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11435)](https://github.com/stdlib-js/stdlib/pull/11435) _(by Karan Anand)_
